@@ -1,1 +1,0 @@
-("~/lts/archercity_master/archercity/0903/ws/source/" "~/.emacs.d/")
