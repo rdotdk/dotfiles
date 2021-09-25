@@ -6,3 +6,4 @@ emacs/.emacs.d/recentf
 emacs/.emacs.d/network-security.data
 emacs/.emacs.d/custom.el
 emacs/.emacs.d/auto-save-list/.saves*
+emacs/.emacs.d/transient/
