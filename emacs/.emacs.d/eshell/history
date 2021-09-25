@@ -1,0 +1,25 @@
+cd ..
+cd ..
+cd ..
+cd ..
+ls
+cd ..
+ls
+git spx build 0714/ast2600evb_A1.PRJ 0714/spx-pkgs/ 0714/ws/
+git spx build 0714/ast2600evb_A1.PRJ 0714/spx-pkgs/ 0714/ws/
+cd ..
+cd ..
+cd ..
+cd ..
+cd ..
+git spx build 0714/ast2600evb_A1.PRJ 0714/spx-pkgs/ 0714/ws/
+git spx build 0714/ast2600evb_A1.PRJ 0714/spx-pkgs/ 0714/ws/
+git spx build 0714/ast2600evb_A1.PRJ 0714/spx-pkgs/ 0714/ws/
+git spx build 0714/ast2600evb_A1.PRJ 0714/spx-pkgs/ 0714/ws/
+cd ..
+cd ..
+cd ..
+cd ..
+cd ..
+ls
+git spx build 0718/ast2600evb.PRJ 0718/spx-pkgs/ 0718/ws/

@@ -1,0 +1,40 @@
+
+;; ----- smex-history -----
+(
+ customize-themes
+ menu-bar-mode
+ shell
+ rgrep
+ package-install
+ package-list-packages
+ eval-buffer
+)
+
+;; ----- smex-data -----
+(
+ (rgrep . 6)
+ (eshell . 3)
+ (shell . 2)
+ (package-list-packages . 6)
+ (package-refresh-contents . 4)
+ (package-list-packages-no-fetch . 1)
+ (package-install . 6)
+ (customize-themes . 24)
+ (semantic-mode . 2)
+ (semantic-symref . 5)
+ (semantic-ia-fast-jump . 1)
+ (semantic-complete-jump . 1)
+ (cscope-setup . 3)
+ (cscope-find-global-definition . 4)
+ (cscope-index-files . 1)
+ (company-ctags . 7)
+ (company-mode . 6)
+ (company-complete . 1)
+ (describe-key . 1)
+ (tags-search . 1)
+ (ac-etags-setup . 2)
+ (ac-etags-ac-setup . 1)
+ (visit-tags-table . 1)
+ (eval-buffer . 2)
+ (menu-bar-mode . 1)
+)
