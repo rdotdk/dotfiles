@@ -28,8 +28,7 @@
 ;;; setup package archives
 ;;; http://melpa.milkbox.net/#/getting-started
 (require 'package) 
-(setq package-archives '(("gnu" . "https://elpa.gnu.org/packages/")
-			 ("melpa" . "https://melpa.org/packages/")))
+(setq package-archives '(("melpa" . "https://melpa.org/packages/")))
 
 ;; set package-enable-at-startup to nil for slightly faster startup
 (setq package-enable-at-startup nil)
@@ -52,11 +51,11 @@
 
 ;; paradox
 ;; https://github.com/Malabarba/paradox
-(use-package paradox
-  :ensure t
-  :commands paradox-list-packages)
-  ;; :config
-  ;; (paradox-enable))
+;;(use-package paradox
+;;  :ensure t
+;;  :commands paradox-list-packages)
+;; :config
+;; (paradox-enable))
 
 (use-package which-key
   :ensure t
@@ -100,8 +99,6 @@
 
 ;;; disable splash screen on emacs start
 (setq inhibit-splash-screen t)
-
-;;(load-theme 'zenburn t)
 
 ;;; disable menubar mode
 (menu-bar-mode -1)
@@ -156,3 +153,8 @@
 
 (use-package eldoc
   :diminish eldoc-mode)
+
+(use-package zenburn-theme
+  :ensure t
+  :init 
+  (load-theme 'zenburn t))
